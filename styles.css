@@ -1,22 +1,21 @@
-.slider {
-    max-width: 90%;
-    margin: 0 auto;
+body {
+    background-color: #310a58;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
 }
-
-.slider__img {
+.image-slider {
+    max-width: 90%;
+    margin: 0 auto; 
+}
+.slider-image {
     width: 100%;
     height: auto;
     display: block;
     margin: 0 auto;
 }
-
-body {
-    background-color: #310a58;
-    font-family: Arial, sans-serif;
-}
-
 @media screen and (min-width: 800px) {
-    .slider__img {
+    .slider-image {
         max-width: 400px;
     }
 }
